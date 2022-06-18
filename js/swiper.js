@@ -39,7 +39,7 @@ const swiperGallery = new Swiper('.swiper-gallery', {
         },
     
   breakpoints: {
-    320: {
+    240: {
       slidesPerView: 1,
       // spaceBetween: 20
     },
@@ -96,7 +96,7 @@ const swiperEvents = new Swiper('.swiper-events', {
   spaceBetween: 40,
 
   breakpoints: {
-    320: {
+    240: {
       slidesPerView: 1,
       // spaceBetween: 20
     },
@@ -169,7 +169,7 @@ const swiperEvents = new Swiper('.swiper-events', {
           prevEl: '.swiper-button-prev',
           },
           breakpoints: {
-            320: {
+            240: {
               slidesPerView: 1,
               // spaceBetween: 20
             },

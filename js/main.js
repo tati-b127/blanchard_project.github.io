@@ -8,15 +8,15 @@ const galleryChoices = new Choices(gallerySelect, {
 
 // CHECKBOX
 
-const checkbox = document.getElementsByClassName('gallery__checkbox');
-const label = document.querySelector('.gallery__checkbox-label');
+// const checkbox = document.getElementsByClassName('gallery__checkbox');
+// const label = document.querySelector('.gallery__checkbox-label');
 
 
-label.addEventListener('keypress', function (evt) {
-  if (evt.key === 'Enter') {
-    checkbox.checked = !checkbox.checked;
-  } 
-});
+// label.addEventListener('keypress', function (evt) {
+//   if (evt.key === 'Enter') {
+//     checkbox.checked = !checkbox.checked;
+//   } 
+// });
 
 // MODALWINDOW
 
@@ -85,6 +85,7 @@ function init() {
     myMap.controls.remove('routeButtonControl');
     myMap.controls.remove('searchControl');
     myMap.controls.remove('fullscreenControl');
+    myMap.behaviors.disable('scrollZoom'); 
 }
 
 // INPUTMASK
