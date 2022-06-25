@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper-hero', {
+ const swiper = new Swiper('.swiper-hero', {
   allowTouchMove: false,
   loop: true,
   effect: 'fade',
@@ -139,6 +139,11 @@ const swiperEvents = new Swiper('.swiper-events', {
     }
   },
 
+  pagination: {
+    el: '.swiper-events-pagination',
+    type: 'bullets',
+    clickable: true,
+    },
 
     // навигация
     navigation: {

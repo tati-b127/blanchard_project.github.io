@@ -6,29 +6,6 @@ const galleryChoices = new Choices(gallerySelect, {
     itemSelectText: '',
 });
 
-// CHECKBOX
-
-// const checkbox = document.getElementsByClassName('gallery__checkbox');
-// const label = document.querySelector('.gallery__checkbox-label');
-
-
-// label.addEventListener('keypress', function (evt) {
-//   if (evt.key === 'Enter') {
-//     checkbox.checked = !checkbox.checked;
-//   } 
-// });
-
-// MODALWINDOW
-
-
-    document.querySelector('.swiper-gallery__btn').addEventListener('click', function() {
-        document.querySelector('.swiper-gallery__modal').classList.add('swiper-gallery__modal_visible')
-    });
-    document.querySelector('.modal__btn-close').addEventListener('click', function() {
-        document.querySelector('.swiper-gallery__modal').classList.remove('swiper-gallery__modal_visible')
-    });
-    // document.querySelector(`[data-target="${path}"]`).classList.add('swiper-gallery__modal_visible');
-
 
 // DROPDOWN
 
@@ -131,16 +108,19 @@ validation
         },
     ]);
 
-// POPUP
+// TOOLTP
 
 
 tippy('#tooltip_1', {
+    theme: 'violet',
     content: 'Пример современных тенденций - современная методология разработки',
   });
   tippy('#tooltip_2', {
+      theme: 'violet',
     content: 'Приятно, граждане, наблюдать, как сделанные на базе аналитики выводы вызывают у вас эмоции',
   });
   tippy('#tooltip_3', {
+      theme: 'violet',
     content: 'В стремлении повысить качество',
   });
 
