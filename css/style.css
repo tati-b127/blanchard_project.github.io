@@ -1958,6 +1958,12 @@ a.ui-button:active,
     background-color: var(--color-active);
     color: var(--color-white);
 }
+.tippy-box[data-placement^=top]>.tippy-arrow:before {
+    border-top-color: var(--color-active);
+}
+.tippy-box[data-placement^=bottom]>.tippy-arrow:before {
+    border-bottom-color: var(--color-active);
+}
 
 .projects__info:focus svg,
 .projects__info:hover svg {
@@ -2130,7 +2136,7 @@ address span {
 }
 
 .btn-primary {
-    height: 50px;
+    min-height: 50px;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
@@ -2973,9 +2979,7 @@ address span {
     }
 
     .contacts__main {
-        padding: 0 15px;
-        padding-top: 20px;
-
+        padding: 20px 15px;
     }
 
     address {
