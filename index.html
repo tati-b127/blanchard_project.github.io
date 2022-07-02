@@ -1309,7 +1309,7 @@
                         </span>
                     </address>
                     <div class="contacts__form">
-                        <form class="form" action="#" id="form" autocomplete="off" aria-label="Форма обратной связи">
+                        <form class="form" action="php/email.php" id="form" method='post' autocomplete="off" aria-label="Форма обратной связи">
                             <div class="form__item">
                                 <input type="text" class="form__input form-control" aria-label="Введите Имя"
                                     placeholder="Имя*" autocomplete="off" name="name" id="name" />
@@ -1318,9 +1318,9 @@
                                 <input type="tel" class="form__input form-control" aria-label="Введите телефон"
                                     placeholder="Телефон*" autocomplete="off" name="tel" id="tel" />
                             </div>
-                            <button class="btn btn-primary btn_desktop" id="submit-btn">Заказать обратный
+                            <button class="btn btn-primary btn_desktop" type="submit" id="submit-btn">Заказать обратный
                                 звонок</button>
-                            <button class="btn btn-primary btn_mobile" id="submit-btn_1">Заказать</button>
+                            <button class="btn btn-primary btn_mobile" tupe="submit" id="submit-btn_1">Заказать</button>
                         </form>
                     </div>
                     <div class="contacts__message">
