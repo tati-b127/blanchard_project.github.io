@@ -172,7 +172,7 @@ body {
 .header-top__login::before {
     content: "";
     position: absolute;
-    top: 22%;
+    top: 20%;
     left: 0;
     width: 14px;
     height: 14px;
@@ -182,7 +182,7 @@ body {
     background-repeat: no-repeat;
     -webkit-transition: background .3s ease-in-out;
     -o-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    transition: background-image .3s ease-in-out;
     z-index: 20;
 }
 
@@ -401,7 +401,7 @@ body {
     width: 300px;
     padding: 40px;
     position: absolute;
-    top: 169%;
+    top: 168%;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: visibility .3s ease-in-out, opacity .3s ease-in-out;
@@ -441,7 +441,7 @@ body {
 }
 
 .dropdown__simplebar .simplebar-track.simplebar-vertical {
-    background-color: var(--color-gray);
+    background-color: var(--color-black);
     width: 2px;
 }
 
@@ -545,9 +545,9 @@ body {
     -webkit-transition-property: border, background;
     -o-transition-property: border, background;
     transition-property: border, background;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
     -webkit-transition-timing-function: linear;
     -o-transition-timing-function: linear;
     transition-timing-function: linear;

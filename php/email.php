@@ -24,7 +24,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			$message  .= "</html>";
 			// Окончание формирования тела письма
 			// Посылаем письмо
-			mail ($to, $subject,  $headers);
+			mail ($to, $subject, $headers);
 }
 else
 {
