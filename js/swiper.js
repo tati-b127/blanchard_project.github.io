@@ -156,18 +156,18 @@ const swiperEvents = new Swiper('.swiper-events', {
   
     slidesPerView: 3,
     allowTouchMove: true,
-    loop: true,
-    autoplay: true,
+    // loop: true,
+    // autoplay: true,
     swipe: true,
   
     // effect: 'slide',
     slideToClickedSlide: true,
     // slidesPerGroup: 3,
     spaceBetween: 50,
-    speed: 1500,
-    autoplay: {
-      delay: 1500,
-    },
+    // speed: 1500,
+    // autoplay: {
+    //   delay: 1500,
+    // },
         // навигация
         navigation: {
           nextEl: '.swiper-button-next',

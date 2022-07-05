@@ -791,22 +791,20 @@ body {
     color: var(--color-white);
     padding: 24px 35px;
     background: var(--color-btn);
-    border: none;
+    border: 3px solid transparent;
     border-radius: 100px;
     z-index: 100;
     -webkit-transition: var(--transition-color-03s), var(--transition-bg-color-03s);
     -o-transition: var(--transition-color-03s), var(--transition-bg-color-03s);
-    transition: var(--transition-color-03s), var(--transition-bg-color-03s);
+    transition: var(--transition-color-03s), var(--transition-bg-color-03s), border 0.3s ease;
 }
 
 .hero__link:focus-visible,
 .hero__link:hover {
-    padding: 21px 32px;
     border: 3px solid var(--color-btn-hover);
 }
 
 .hero__link:active {
-    padding: 21px 32px;
     border: 3px solid var(--color-btn-hover);
     background: var(--color-active);
 }
@@ -1958,6 +1956,7 @@ a.ui-button:active,
 }
 
 .tippy-box[data-theme~='violet'] {
+    border-radius: 0;
     background-color: var(--color-active);
     color: var(--color-white);
 }
@@ -2023,11 +2022,11 @@ a.ui-button:active,
 .swiper-projects img {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
-    -webkit-transition: -webkit-filter 0.1s linear;
-    transition: -webkit-filter 0.1s linear;
-    -o-transition: filter 0.1s linear;
-    transition: filter 0.1s linear;
-    transition: filter 0.1s linear, -webkit-filter 0.1s linear;
+    -webkit-transition: -webkit-filter 0.2s ease-in;
+    transition: -webkit-filter 0.2s ease-in;
+    -o-transition: filter 0.2s ease-in;
+    transition: filter 0.2s ease-in;
+    transition: filter 0.2s ease-in, -webkit-filter 0.2s ease-in;
 }
 
 .swiper-projects .swiper-slide:focus img {
@@ -2222,9 +2221,31 @@ address span {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+.map {
+    position: relative;
+}
 
-.ymaps-2-1-79-map-copyrights-promo {
+.ymaps-2-1-79-map-copyrights-promo,
+.ymaps-2-1-79-zoom__runner,
+.ymaps-2-1-79-zoom__scale {
     display: none;
+}
+.ymaps-2-1-79-zoom {
+    height: 0 !important;
+    position: absolute;
+    
+}
+.ymaps-2-1-79-zoom__plus {
+    position: absolute;
+    top: 200px !important;
+}
+.ymaps-2-1-79-zoom__minus {
+    position: absolute;
+    top: 230px !important;
+}
+.ymaps-2-1-79-_hidden-text {
+    position: absolute;
+    top: 240px !important;
 }
 
 /* FOOTER */
@@ -3022,7 +3043,7 @@ address span {
     .map {
         max-height: 350px;
     }
-
+    
     .container-footer {
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
