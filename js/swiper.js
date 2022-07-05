@@ -164,10 +164,10 @@ const swiperEvents = new Swiper('.swiper-events', {
     slideToClickedSlide: true,
     // slidesPerGroup: 3,
     spaceBetween: 50,
-    // speed: 10000,
-    // autoplay: {
-    //   delay: 10000
-    // }
+    speed: 1500,
+    autoplay: {
+      delay: 1500,
+    },
         // навигация
         navigation: {
           nextEl: '.swiper-button-next',

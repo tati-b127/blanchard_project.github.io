@@ -415,7 +415,7 @@ body {
 }
 
 .dropdown__simplebar {
-    height: 220px;
+    max-height: 220px;
     padding-right: 20px;
 }
 
@@ -1317,7 +1317,9 @@ body {
 .fixed-overlay_visible {
     visibility: visible;
 }
-
+.body_noscroll {
+    overflow-y: hidden;
+}
 .swiper-gallery__modal {
     position: absolute;
     left: 50%;
@@ -1331,6 +1333,7 @@ body {
     z-index: 200;
     -webkit-box-shadow: 0 15px 15px -10px rgba(0, 0, 0, .5);
     box-shadow: 0 15px 15px -10px rgba(0, 0, 0, .5);
+    overflow-y: auto;
     display: none;
 }
 
@@ -2450,10 +2453,6 @@ address span {
         max-width: 350px;
     }
 
-    .swiper-gallery__modal {
-        top: 56%;
-    }
-
     .catalog-preview__item_active {
         width: 52%;
     }
@@ -2685,7 +2684,7 @@ address span {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        top: 47%;
+        /* top: 70vh; */
     }
 
     .modal__img {
@@ -2850,7 +2849,10 @@ address span {
         padding-top: 30px;
         padding-bottom: 50px;
     }
-
+    .gallery__slide-show .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
     .modal__img {
         min-height: 250px;
         min-width: 300px;
@@ -2860,6 +2862,9 @@ address span {
         right: 20px;
         top: 20px;
     }
+    .modal__block {
+        padding: 20px;
+    }
 
     .choices {
         margin-bottom: 90px;
@@ -2867,7 +2872,7 @@ address span {
 
     .swiper-nav {
         top: 110%;
-        left: 30%;
+        left: 35%;
     }
 
     .catalog {
@@ -2950,6 +2955,7 @@ address span {
     }
 
     .events__name {
+        text-align: end;
         margin-bottom: 22px;
     }
 
@@ -2973,9 +2979,9 @@ address span {
         margin-bottom: 17px;
     }
 
-    .logo {
-        max-width: 100px;
-        min-width: 100px;
+    .header-top__logo {
+        min-width: 130px;
+        width: 130px;
     }
 
     .contacts__main {
