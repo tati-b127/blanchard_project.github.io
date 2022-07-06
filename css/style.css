@@ -2822,10 +2822,6 @@ address span {
         padding: 13px 20px;
     }
 
-    .hero__link:hover {
-        padding: 10px 16px;
-    }
-
     .header-top__tablet {
         height: 50px;
         min-height: 50px;
