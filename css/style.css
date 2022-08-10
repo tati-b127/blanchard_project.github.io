@@ -566,83 +566,83 @@ body {
 }
 
 .dropdown__link_1-1 {
-    background-image: url(../img/dropdown-1.jpg);
+    background-image: url(../img/dropdown-1.webp);
 }
 
 .dropdown__link_1-2 {
-    background-image: url(../img/dropdown-2.jpg);
+    background-image: url(../img/dropdown-2.webp);
 }
 
 .dropdown__link_1-3 {
-    background-image: url(../img/dropdown-3.jpg);
+    background-image: url(../img/dropdown-3.webp);
 }
 
 .dropdown__link_1-4 {
-    background-image: url(../img/dropdown-4.jpg);
+    background-image: url(../img/dropdown-4.webp);
 }
 
 .dropdown__link_2-1 {
-    background-image: url(../img/dropdown-2-1.jpg);
+    background-image: url(../img/dropdown-2-1.webp);
 }
 
 .dropdown__link_2-2 {
-    background-image: url(../img/dropdown-2-2.jpg);
+    background-image: url(../img/dropdown-2-2.webp);
 }
 
 .dropdown__link_2-3 {
-    background-image: url(../img/dropdown-2-3.jpg);
+    background-image: url(../img/dropdown-2-3.webp);
 }
 
 .dropdown__link_2-4 {
-    background-image: url(../img/dropdown-2-4.jpg);
+    background-image: url(../img/dropdown-2-4.webp);
 }
 
 .dropdown__link_3-1 {
-    background-image: url(../img/dropdown-3-1.jpg);
+    background-image: url(../img/dropdown-3-1.webp);
 }
 
 .dropdown__link_3-2 {
-    background-image: url(../img/dropdown-3-2.jpg);
+    background-image: url(../img/dropdown-3-2.webp);
 }
 
 .dropdown__link_3-3 {
-    background-image: url(../img/dropdown-3-3.jpg);
+    background-image: url(../img/dropdown-3-3.webp);
 }
 
 .dropdown__link_3-4 {
-    background-image: url(../img/dropdown-3-4.jpg);
+    background-image: url(../img/dropdown-3-4.webp);
 }
 
 .dropdown__link_4-1 {
-    background-image: url(../img/dropdown-4-1.jpg);
+    background-image: url(../img/dropdown-4-1.webp);
 }
 
 .dropdown__link_4-2 {
-    background-image: url(../img/dropdown-4-2.jpg);
+    background-image: url(../img/dropdown-4-2.webp);
 }
 
 .dropdown__link_4-3 {
-    background-image: url(../img/dropdown-4-3.jpg);
+    background-image: url(../img/dropdown-4-3.webp);
 }
 
 .dropdown__link_4-4 {
-    background-image: url(../img/dropdown-4-4.jpg);
+    background-image: url(../img/dropdown-4-4.webp);
 }
 
 .dropdown__link_5-1 {
-    background-image: url(../img/dropdown-5-1.jpg);
+    background-image: url(../img/dropdown-5-1.webp);
 }
 
 .dropdown__link_5-2 {
-    background-image: url(../img/dropdown-5-2.jpg);
+    background-image: url(../img/dropdown-5-2.webp);
 }
 
 .dropdown__link_5-3 {
-    background-image: url(../img/dropdown-5-3.jpg);
+    background-image: url(../img/dropdown-5-3.webp);
 }
 
 .dropdown__link_5-4 {
-    background-image: url(../img/dropdown-5-4.jpg);
+    background-image: url(../img/dropdown-5-4.webp);
 }
 
 .header-bottom__form {
@@ -884,7 +884,7 @@ body {
 .container-gallery {
     padding-top: 80px;
     padding-bottom: 88px;
-    background-image: url(../img/gallery-bg-1920.jpg);
+    background-image: url(../img/gallery-bg-1920.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1395,27 +1395,27 @@ body {
 }
 
 .modal__img_1 {
-    background-image: url(../img/gallery-768-1.jpg);
+    background-image: url(../img/gallery-768-1.webp);
 }
 
 .modal__img_2 {
-    background-image: url(../img/gallery-768-2.jpg);
+    background-image: url(../img/gallery-768-2.webp);
 }
 
 .modal__img_3 {
-    background-image: url(../img/gallery-768-3.jpg);
+    background-image: url(../img/gallery-768-3.webp);
 }
 
 .modal__img_4 {
-    background-image: url(../img/gallery-768-4.jpg);
+    background-image: url(../img/gallery-768-4.webp);
 }
 
 .modal__img_5 {
-    background-image: url(../img/gallery-768-5.jpg);
+    background-image: url(../img/gallery-768-5.webp);
 }
 
 .modal__img_6 {
-    background-image: url(../img/gallery-768-6.jpg);
+    background-image: url(../img/gallery-768-6.webp);
 }
 
 .modal__btn-close {
@@ -2449,7 +2449,7 @@ address span {
     }
 
     .container-gallery {
-        background-image: url(../img/gallery-bg-1024.jpg);
+        background-image: url(../img/gallery-bg-1024.webp);
         padding-bottom: 122px;
     }
 
@@ -2629,7 +2629,7 @@ address span {
     }
 
     .container-gallery {
-        background-image: url(../img/gallery-bg-768.jpg);
+        background-image: url(../img/gallery-bg-768.webp);
         padding-bottom: 34px;
     }
 
@@ -2845,7 +2845,7 @@ address span {
 
     .container-gallery {
         padding-top: 50px;
-        background-image: url(../img/gallery-bg-320.jpg);
+        background-image: url(../img/gallery-bg-320.webp);
     }
 
     .gallery__title {
